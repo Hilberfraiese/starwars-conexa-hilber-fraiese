@@ -66,7 +66,7 @@ $ npm install
 
 <li>Configura las variables de entorno:
     <p>
-     Crea un archivo <code>.env</code> en la raíz del proyecto y configura las variables necesarias, como la URL de la API pública de Star Wars y los secretos para la autenticación.
+     Crea un archivo <code>.env</code> en la raíz del proyecto y pegue las variables que le han sido proporcionadas.
     </p>
   </li>
   <li>Inicia la aplicación:</li>
@@ -84,17 +84,6 @@ $ nest start
   La API cuenta con una documentación completa de los endpoints utilizando <strong>Swagger</strong>. Puedes acceder a esta documentación en <code>/api</code> para ver los detalles de cada endpoint, incluyendo los métodos disponibles, parámetros requeridos, y ejemplos de respuesta.
 </p>
 
-<h2><a href="#contribuciones">Contribuciones</a></h2>
-
-<p>
-  Si deseas contribuir a este proyecto, por favor abre un issue o envía un pull request. Todas las contribuciones son bienvenidas.
-</p>
-
-<h2><a href="#licencia">Licencia</a></h2>
-
-<p>
-  Este proyecto está bajo la licencia MIT. Ver el archivo <a href="./LICENSE">LICENSE</a> para más detalles.
-</p>
 
 <p align="right">
   <a href="#top">Volver al inicio</a>
