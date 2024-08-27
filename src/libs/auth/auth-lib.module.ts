@@ -4,6 +4,9 @@ import { JwtStrategy } from './strategies/jwt.strategy';
 import { AuthLibService } from './auth-lib.service';
 import { UserModelName, UserSchema } from 'src/user/schemas/user.schema';
 import { MongooseModule } from '@nestjs/mongoose';
+import * as dotenv from 'dotenv';
+
+dotenv.config(); 
 
 @Module({
   imports: [

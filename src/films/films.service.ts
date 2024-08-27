@@ -10,6 +10,9 @@ import {CharacterDto, SpeciesDto, StarshipsDto, VehiclesDto} from './dto/view-ge
 import { FilmDto } from './dto/film.dto';
 import { errorsDictionary } from '../libs/errors-dictionary';
 import { UpdateFilmDto } from './dto/update-film.dto';
+import * as dotenv from 'dotenv';
+
+dotenv.config(); 
 
 
 @Injectable()

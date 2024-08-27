@@ -4,6 +4,9 @@ import { CreateUserDto } from './user/dto/create-user.dto';
 import { UserService } from './user/user.service';
 import { Role } from './libs/enum';
 import { FilmsService } from './films/films.service';
+import * as dotenv from 'dotenv';
+
+dotenv.config(); 
 
 
 @ApiTags('status')

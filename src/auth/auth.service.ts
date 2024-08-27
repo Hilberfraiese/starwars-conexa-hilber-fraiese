@@ -10,6 +10,9 @@ import { Role } from '../libs/enum';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { InputUserDto } from '../user/dto/input-user.dto'
+import * as dotenv from 'dotenv';
+
+dotenv.config(); 
 
 
 
